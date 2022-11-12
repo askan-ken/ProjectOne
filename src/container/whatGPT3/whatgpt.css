@@ -1,0 +1,25 @@
+.gpt__whatgpt {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+     background:-moz-radial-gradient(circle at 99% 100%, rgba(0, 19, 117, 1) 0%, rgba(98, 6, 147, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 99% 100%, rgba(0, 19, 117, 1) 0%, rgba(98, 6, 147, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 99% 100%, rgba(0, 19, 117, 1) 0%, rgba(98, 6, 147, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 99% 100%, rgba(0, 19, 117, 1) 0%, rgba(98, 6, 147, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 99% 100%, rgba(0, 19, 117, 1) 0%, rgba(98, 6, 147, 1) 100%);
+}
+
+.gpt__whatgpt-feature {
+    display: flex;
+}
